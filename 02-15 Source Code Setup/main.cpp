@@ -19,8 +19,8 @@ std::string prompt_for(std::string prompt) {
  * Main
  */
 int main(int argc, char* argv[]) {
-  std::string fav_color{"cat"};
-  fav_color = prompt_for("what is your favorite color? ");
+  std::string fav_color{prompt_for("what is your favorite color? ")};
+  // fav_color = prompt_for("what is your favorite color? ");
   std::cout << fav_color << '\n';
   return 0;
 }
