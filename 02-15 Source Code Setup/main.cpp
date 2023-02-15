@@ -22,5 +22,6 @@ int main(int argc, char* argv[]) {
   std::string fav_color{prompt_for("what is your favorite color? ")};
   // fav_color = prompt_for("what is your favorite color? ");
   std::cout << fav_color << '\n';
+  std::cout << "hello" << '\n';
   return 0;
 }
